@@ -1,0 +1,12 @@
+cat > .gelignite <<'EOF'
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.vscode/
+data/00_raw/
+data/01_interim/
+data/02_processed/
+reports/
+notebooks/
+EOF

@@ -1,12 +1,15 @@
-cat > .gelignite <<'EOF'
+# --- Python / Jupyter ---
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+ECHO is on.
+# --- IDE / virtual-env ---
 .env
 .vscode/
+ECHO is on.
+# --- Data 
 data/00_raw/
 data/01_interim/
 data/02_processed/
 reports/
-notebooks/
-EOF
+models/

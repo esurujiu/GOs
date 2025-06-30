@@ -1,0 +1,8 @@
+name: GOs
+channels:
+  - defaults
+dependencies:
+  - notebook
+  - jupyterlab-lsp
+  - python-lsp-server
+prefix: C:\Users\esurujiu\AppData\Local\miniconda3\envs\GOs
